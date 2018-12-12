@@ -6,7 +6,6 @@ services:
     restart: always
     volumes:
       - ./code:/var/www
-      - ./code/public:/var/www/html
     ports:
       - "8080:80"
     networks:
